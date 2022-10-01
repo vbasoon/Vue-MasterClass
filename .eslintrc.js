@@ -8,7 +8,6 @@ module.exports = {
     parser: "@babel/eslint-parser",
   },
   rules: {
-    "no-unused-vars": process.env.NODE_ENV == "production" ? "error" : "warn",
+    "no-unused-vars": "warn",
   },
-  parser: "vue-eslint-parser",
 };
