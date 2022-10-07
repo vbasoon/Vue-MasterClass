@@ -12,8 +12,8 @@
           <a href="#" class="user-name">{{
             userById(postById(postId).userId).name
           }}</a>
-          <a class="avatar" href="">
-            <img src="" alt="" />
+          <a href="#">
+            <img class="avatar-large" src="" alt="" />
           </a>
           <div class="stats">
             <p class="stats__posts">count_posts</p>
